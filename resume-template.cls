@@ -1,10 +1,13 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% identification
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume-template}[2020/08/07 a single-column resume template with colored icons and links]
-\LoadClass{article}
+\ProvidesClass{resume-template}[2020/08/21 a single-column resume template with colored icons and links]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % package imports
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\LoadClass{article}
 \RequirePackage{etoolbox}
 \RequirePackage[letterpaper, margin=0.5in]{geometry}
 \RequirePackage[colorlinks=true, urlcolor=linkColor]{hyperref}
@@ -25,27 +28,31 @@
 \raggedright
 \pagenumbering{gobble}
 \renewcommand*\familydefault{\sfdefault}
-\setlist[itemize]{nosep, leftmargin=\bulletLeftMargin}
+\setlist[itemize]{nosep, leftmargin=\bulletTextLeftMargin}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % font size and spacing definitions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\nameSize}{35pt}
 \newcommand{\nameBaselineskip}{35pt}
-\newcommand{\sectionDelimeterSize}{18pt}
-\newcommand{\sectionDelimeterBaselineskip}{18pt}
-\newcommand{\experienceHeaderSize}{14pt}
-\newcommand{\experienceHeaderBaselineskip}{14pt}
-\newcommand{\experienceHeaderSmallSize}{12pt}
-\newcommand{\experienceHeaderSmallBaselineskip}{12pt}
-\newcommand{\bulletTextSize}{12pt}
-\newcommand{\bulletTextBaselineskip}{20pt}
-\newcommand{\bulletLeftMargin}{0.4in}
+
 \newcommand{\iconSize}{12pt}
 \newcommand{\iconBaselineskip}{12pt}
 
+\newcommand{\sectionDelimeterSize}{18pt}
+\newcommand{\sectionDelimeterBaselineskip}{18pt}
 \newcommand{\spaceAfterSectionDelimeter}{0.75ex}
+
+\newcommand{\experienceHeaderSize}{14pt}
+\newcommand{\experienceHeaderBaselineskip}{14pt}
 \newcommand{\spaceAfterExperienceHeader}{0.5ex}
+
+\newcommand{\experienceHeaderSmallSize}{12pt}
+\newcommand{\experienceHeaderSmallBaselineskip}{12pt}
+
+\newcommand{\bulletTextSize}{12pt}
+\newcommand{\bulletTextBaselineskip}{20pt}
+\newcommand{\bulletTextLeftMargin}{0.4in}
 \newcommand{\spaceAfterBullets}{1.5ex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
