@@ -13,9 +13,8 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{enumitem}
 \RequirePackage{ifthen}
-
-\usepackage[T1]{fontenc}
-\usepackage[usefilenames,
+\RequirePackage[T1]{fontenc}
+\RequirePackage[usefilenames,
   RMstyle={Text,Semibold},
   SSstyle={Text,Semibold},
   TTstyle={Text,Semibold}]{plex-otf}
