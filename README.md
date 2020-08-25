@@ -2,8 +2,7 @@
 
 A single-column resume template with colored icons and links
 
-|![preview of resume-template](resume-template.png)|
-|-|
+![preview of resume-template](resume-template.png)
 
 ## How to Compile
 
