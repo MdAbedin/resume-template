@@ -2,7 +2,7 @@
 
 A single-column resume template with colored icons and links
 
-<img src="resume-template.png" height="720">
+<img src="https://user-images.githubusercontent.com/18149939/91180559-dc6fb980-e6b5-11ea-9559-0c7116b3bb36.png" height="720">
 
 ## How to Compile
 
