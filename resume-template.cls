@@ -2,7 +2,7 @@
 % identification
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume-template}[2020/08/21 a single-column resume template with colored icons and links]
+\ProvidesClass{resume-template}[2020/08/21 A single-column resume template with colored icons and links: https://github.com/MdAbedin/resume-template]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % package imports
